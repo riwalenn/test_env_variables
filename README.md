@@ -1,4 +1,9 @@
 # test_env_variables
+
+## Versions
+- php 8.1
+- Symfony 6.0
+- 
 ## Instructions
 - mettre en commentaire le DATABASE_URL dans le .env, .env.local, etc...
 - dumper : composer dump-env dev
@@ -20,8 +25,5 @@ doctrine:
         password: '%env(DATABASE_PASSWORD)%'
         charset: utf8mb4
         server_version: '5.7'
-        driver: pdo_mysql```
-        
-## Versions
-- php 8.1
-- Symfony 6.0
+        driver: pdo_mysql
+```

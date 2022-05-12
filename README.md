@@ -1,7 +1,8 @@
 # test_env_variables
 
 ## Versions
-https://img.shields.io/badge/PHP-8.1-blue.svg?style=flat-square&logo=appveyor.svg https://img.shields.io/badge/Symfony-6.0-blue.svg?style=flat-square&logo=appveyor.svg
+- php 8.1
+- Symfony 6.0
 
 ## Instructions
 - mettre en commentaire le DATABASE_URL dans le .env, .env.local, etc...

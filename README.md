@@ -3,7 +3,7 @@
 ## Versions
 - php 8.1
 - Symfony 6.0
-- 
+
 ## Instructions
 - mettre en commentaire le DATABASE_URL dans le .env, .env.local, etc...
 - dumper : composer dump-env dev

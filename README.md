@@ -10,7 +10,7 @@
 - générer les clés privées et publiques en dev et en prod
 - pour générer les clés composer a besoin de paragonie/sodium_compat
 - générer les clés : php bin/console secrets:generate-keys --env=prod (pour la production)
-- créer un mot de passe secret : APP_RUNTIME_ENV=prod php/bin console secrets:set DATABASE_PASSWORD
+- créer un mot de passe secret : php bin/console secrets:set DATABASE_PASSWORD
 - taper la valeur
 - configurer les informations de la base de donnée dans le dossier config > package puis fichier doctrine.yaml
 - exemple :

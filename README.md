@@ -1,5 +1,5 @@
 # test_env_variables
-
+## Instructions
 - mettre en commentaire le DATABASE_URL dans le .env, .env.local, etc...
 - dumper : composer dump-env dev
 - générer les clés privées et publiques en dev et en prod
@@ -9,9 +9,9 @@
 - taper la valeur
 - configurer les informations de la base de donnée dans le dossier config > package puis fichier doctrine.yaml
 - exemple :
-  
+ ```yaml
 doctrine:
-  dbal:
+      dbal:
         # url: '%env(resolve:DATABASE_URL)%'
         dbname: db_name (nom de votre bdd)
         host: 127.0.0.1
@@ -20,4 +20,8 @@ doctrine:
         password: '%env(DATABASE_PASSWORD)%'
         charset: utf8mb4
         server_version: '5.7'
-        driver: pdo_mysql
+        driver: pdo_mysql```
+        
+## Versions
+- php 8.1
+- Symfony 6.0
